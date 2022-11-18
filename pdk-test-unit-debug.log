@@ -1,0 +1,164 @@
+pdk (DEBUG): Analytics opt-out is set, analytics will be disabled
+pdk (DEBUG): Skipping submission of 'test_unit' screenview because analytics is disabled
+pdk (INFO): Using Ruby 2.7.6
+pdk (INFO): Using Puppet 7.20.0
+pdk (DEBUG): Checking for missing Gemfile dependencies.
+pdk (DEBUG): Using '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle' from PDK package.
+pdk (DEBUG): Executing '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle check --gemfile=/home/nuc/git/test/Gemfile --dry-run'
+pdk (DEBUG): Command environment:
+pdk (DEBUG):   TERM: xterm-256color
+pdk (DEBUG):   PUPPET_GEM_VERSION: 7.20.0
+pdk (DEBUG):   FACTER_GEM_VERSION: 
+pdk (DEBUG):   HIERA_GEM_VERSION: 
+pdk (DEBUG):   BUNDLE_IGNORE_CONFIG: 1
+pdk (DEBUG):   GEM_HOME: /home/nuc/.pdk/cache/ruby/2.7.0
+pdk (DEBUG):   GEM_PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0
+pdk (DEBUG):   PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/bin:/home/nuc/.pdk/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0/bin:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0/bin:/opt/puppetlabs/pdk/bin:/opt/puppetlabs/pdk/private/git/bin:/home/nuc/bin:/usr/local/bin:/opt/puppetlabs/bin:/home/nuc/bin:/home/nuc/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+pdk (DEBUG): Execution of '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle check --gemfile=/home/nuc/git/test/Gemfile --dry-run' complete (duration: 1.738303676s; exit code: 0)
+pdk (DEBUG): STDOUT: 
+Resolving dependencies.....
+The Gemfile's dependencies are satisfied
+
+pdk (DEBUG): STDERR: 
+The dependency puppet-module-win-default-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+The dependency puppet-module-win-dev-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+The dependency puppet-module-win-system-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+
+pdk (DEBUG): Updating Gemfile dependencies.
+pdk (DEBUG): Using '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle' from PDK package.
+pdk (DEBUG): Executing '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle lock --lockfile=/home/nuc/git/test/Gemfile.lock --update --local'
+pdk (DEBUG): Command environment:
+pdk (DEBUG):   TERM: xterm-256color
+pdk (DEBUG):   PUPPET_GEM_VERSION: 7.20.0
+pdk (DEBUG):   FACTER_GEM_VERSION: 
+pdk (DEBUG):   HIERA_GEM_VERSION: 
+pdk (DEBUG):   BUNDLE_GEMFILE: /home/nuc/git/test/Gemfile
+pdk (DEBUG):   BUNDLE_IGNORE_CONFIG: 1
+pdk (DEBUG):   GEM_HOME: /home/nuc/.pdk/cache/ruby/2.7.0
+pdk (DEBUG):   GEM_PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0
+pdk (DEBUG):   PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/bin:/home/nuc/.pdk/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0/bin:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0/bin:/opt/puppetlabs/pdk/bin:/opt/puppetlabs/pdk/private/git/bin:/home/nuc/bin:/usr/local/bin:/opt/puppetlabs/bin:/home/nuc/bin:/home/nuc/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+pdk (DEBUG): Execution of '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle lock --lockfile=/home/nuc/git/test/Gemfile.lock --update --local' complete (duration: 2.007184048s; exit code: 0)
+pdk (DEBUG): STDOUT: 
+Writing lockfile to /home/nuc/git/test/Gemfile.lock
+Resolving dependencies.....
+
+pdk (DEBUG): STDERR: 
+The dependency puppet-module-win-default-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+The dependency puppet-module-win-dev-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+The dependency puppet-module-win-system-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+
+pdk (DEBUG): Checking for missing Gemfile dependencies.
+pdk (DEBUG): Using '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle' from PDK package.
+pdk (DEBUG): Executing '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle check --gemfile=/home/nuc/git/test/Gemfile --dry-run'
+pdk (DEBUG): Command environment:
+pdk (DEBUG):   TERM: xterm-256color
+pdk (DEBUG):   PUPPET_GEM_VERSION: 7.20.0
+pdk (DEBUG):   FACTER_GEM_VERSION: 
+pdk (DEBUG):   HIERA_GEM_VERSION: 
+pdk (DEBUG):   BUNDLE_IGNORE_CONFIG: 1
+pdk (DEBUG):   GEM_HOME: /home/nuc/.pdk/cache/ruby/2.7.0
+pdk (DEBUG):   GEM_PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0
+pdk (DEBUG):   PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/bin:/home/nuc/.pdk/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0/bin:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0/bin:/opt/puppetlabs/pdk/bin:/opt/puppetlabs/pdk/private/git/bin:/home/nuc/bin:/usr/local/bin:/opt/puppetlabs/bin:/home/nuc/bin:/home/nuc/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+pdk (DEBUG): Execution of '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle check --gemfile=/home/nuc/git/test/Gemfile --dry-run' complete (duration: 0.956967166s; exit code: 0)
+pdk (DEBUG): STDOUT: 
+The Gemfile's dependencies are satisfied
+
+pdk (DEBUG): STDERR: 
+The dependency puppet-module-win-default-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+The dependency puppet-module-win-dev-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+The dependency puppet-module-win-system-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+
+pdk (DEBUG): Using '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle' from PDK package.
+pdk (DEBUG): Executing '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle binstubs rake rspec-core --force'
+pdk (DEBUG): Command environment:
+pdk (DEBUG):   TERM: xterm-256color
+pdk (DEBUG):   PUPPET_GEM_VERSION: 
+pdk (DEBUG):   FACTER_GEM_VERSION: 
+pdk (DEBUG):   HIERA_GEM_VERSION: 
+pdk (DEBUG):   BUNDLE_IGNORE_CONFIG: 1
+pdk (DEBUG):   GEM_HOME: /home/nuc/.pdk/cache/ruby/2.7.0
+pdk (DEBUG):   GEM_PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0
+pdk (DEBUG):   PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/bin:/home/nuc/.pdk/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0/bin:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0/bin:/opt/puppetlabs/pdk/bin:/opt/puppetlabs/pdk/private/git/bin:/home/nuc/bin:/usr/local/bin:/opt/puppetlabs/bin:/home/nuc/bin:/home/nuc/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+pdk (DEBUG): Execution of '/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/bundle binstubs rake rspec-core --force' complete (duration: 2.008615628s; exit code: 0)
+pdk (DEBUG): STDOUT: 
+Resolving dependencies....
+
+pdk (DEBUG): STDERR: 
+The dependency puppet-module-win-default-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+The dependency puppet-module-win-dev-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+The dependency puppet-module-win-system-r2.7 (~> 1.0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, x64-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 x64-mingw32`.
+
+pdk (DEBUG): Executing '/home/nuc/git/test/bin/rake spec_prep'
+pdk (DEBUG): Command environment:
+pdk (DEBUG):   TERM: xterm-256color
+pdk (DEBUG):   PUPPET_GEM_VERSION: 
+pdk (DEBUG):   FACTER_GEM_VERSION: 
+pdk (DEBUG):   HIERA_GEM_VERSION: 
+pdk (DEBUG):   BUNDLE_IGNORE_CONFIG: 1
+pdk (DEBUG):   GEM_HOME: /home/nuc/.pdk/cache/ruby/2.7.0
+pdk (DEBUG):   GEM_PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0
+pdk (DEBUG):   PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/bin:/home/nuc/.pdk/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0/bin:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0/bin:/opt/puppetlabs/pdk/bin:/opt/puppetlabs/pdk/private/git/bin:/home/nuc/bin:/usr/local/bin:/opt/puppetlabs/bin:/home/nuc/bin:/home/nuc/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+pdk (DEBUG): Execution of '/home/nuc/git/test/bin/rake spec_prep' complete (duration: 7.660408377s; exit code: 0)
+pdk (DEBUG): STDOUT: N/A
+pdk (DEBUG): STDERR: N/A
+pdk (DEBUG): Executing '/home/nuc/git/test/bin/rake spec_standalone' interactively
+pdk (DEBUG): Command environment:
+pdk (DEBUG):   TERM: xterm-256color
+pdk (DEBUG):   PUPPET_GEM_VERSION: 7.20.0
+pdk (DEBUG):   FACTER_GEM_VERSION: 
+pdk (DEBUG):   HIERA_GEM_VERSION: 
+pdk (DEBUG):   CI_SPEC_OPTIONS: --format progress
+pdk (DEBUG):   BUNDLE_IGNORE_CONFIG: 1
+pdk (DEBUG):   GEM_HOME: /home/nuc/.pdk/cache/ruby/2.7.0
+pdk (DEBUG):   GEM_PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0
+pdk (DEBUG):   PATH: /opt/puppetlabs/pdk/private/ruby/2.7.6/bin:/home/nuc/.pdk/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/ruby/2.7.6/lib/ruby/gems/2.7.0/bin:/opt/puppetlabs/pdk/share/cache/ruby/2.7.0/bin:/opt/puppetlabs/pdk/private/puppet/ruby/2.7.0/bin:/opt/puppetlabs/pdk/bin:/opt/puppetlabs/pdk/private/git/bin:/home/nuc/bin:/usr/local/bin:/opt/puppetlabs/bin:/home/nuc/bin:/home/nuc/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/ruby -I/home/nuc/.pdk/cache/ruby/2.7.0/gems/rspec-core-3.12.0/lib:/home/nuc/.pdk/cache/ruby/2.7.0/gems/rspec-support-3.12.0/lib /home/nuc/.pdk/cache/ruby/2.7.0/gems/rspec-core-3.12.0/exe/rspec --pattern spec/\{aliases,classes,defines,functions,hosts,integration,plans,tasks,type_aliases,types,unit\}/\*\*/\*_spec.rb --format progress
+Run options: exclude {:bolt=>true}
+.F.F.F.F.F.F
+
+Failures:
+
+  1) test "centos-7-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+     Failure/Error: it { is_expected.to contain_notify('osfam').with('message' => %r{deadbeef}) }
+       expected that the catalogue would contain Notify[osfam] with message set to /deadbeef/ but it is set to "I am a Debian system"
+     # ./spec/classes/test_spec.rb:12:in `block (4 levels) in <top (required)>'
+
+  2) test "debian-10-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+     Failure/Error: it { is_expected.to contain_notify('osfam').with('message' => %r{deadbeef}) }
+       expected that the catalogue would contain Notify[osfam] with message set to /deadbeef/ but it is set to "I am a Debian system"
+     # ./spec/classes/test_spec.rb:12:in `block (4 levels) in <top (required)>'
+
+  3) test "oraclelinux-7-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+     Failure/Error: it { is_expected.to contain_notify('osfam').with('message' => %r{deadbeef}) }
+       expected that the catalogue would contain Notify[osfam] with message set to /deadbeef/ but it is set to "I am a Debian system"
+     # ./spec/classes/test_spec.rb:12:in `block (4 levels) in <top (required)>'
+
+  4) test "redhat-8-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+     Failure/Error: it { is_expected.to contain_notify('osfam').with('message' => %r{deadbeef}) }
+       expected that the catalogue would contain Notify[osfam] with message set to /deadbeef/ but it is set to "I am a Debian system"
+     # ./spec/classes/test_spec.rb:12:in `block (4 levels) in <top (required)>'
+
+  5) test "scientific-7-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+     Failure/Error: it { is_expected.to contain_notify('osfam').with('message' => %r{deadbeef}) }
+       expected that the catalogue would contain Notify[osfam] with message set to /deadbeef/ but it is set to "I am a Debian system"
+     # ./spec/classes/test_spec.rb:12:in `block (4 levels) in <top (required)>'
+
+  6) test "ubuntu-18.04-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+     Failure/Error: it { is_expected.to contain_notify('osfam').with('message' => %r{deadbeef}) }
+       expected that the catalogue would contain Notify[osfam] with message set to /deadbeef/ but it is set to "I am a Debian system"
+     # ./spec/classes/test_spec.rb:12:in `block (4 levels) in <top (required)>'
+
+Finished in 0.92273 seconds (files took 17.71 seconds to load)
+12 examples, 6 failures
+
+Failed examples:
+
+rspec './spec/classes/test_spec.rb[1:1:2]' # test "centos-7-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+rspec './spec/classes/test_spec.rb[1:2:2]' # test "debian-10-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+rspec './spec/classes/test_spec.rb[1:3:2]' # test "oraclelinux-7-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+rspec './spec/classes/test_spec.rb[1:4:2]' # test "redhat-8-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+rspec './spec/classes/test_spec.rb[1:5:2]' # test "scientific-7-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+rspec './spec/classes/test_spec.rb[1:6:2]' # test "ubuntu-18.04-x86_64" should match the failure message is expected to contain Notify[osfam] with message =~ /deadbeef/
+
+/opt/puppetlabs/pdk/private/ruby/2.7.6/bin/ruby -I/home/nuc/.pdk/cache/ruby/2.7.0/gems/rspec-core-3.12.0/lib:/home/nuc/.pdk/cache/ruby/2.7.0/gems/rspec-support-3.12.0/lib /home/nuc/.pdk/cache/ruby/2.7.0/gems/rspec-core-3.12.0/exe/rspec --pattern spec/\{aliases,classes,defines,functions,hosts,integration,plans,tasks,type_aliases,types,unit\}/\*\*/\*_spec.rb --format progress failed
+pdk (DEBUG): Execution of '/home/nuc/git/test/bin/rake spec_standalone' complete (duration:                               27.310108433s; exit code: 1)
