@@ -1,4 +1,4 @@
-# test
+# Sample code demonstrating and reproducing https://github.com/puppetlabs/pdk/issues/1190
 
 This repo was made with `pdk new module test` and setting up support for Debian and RedHat OSes only.  Then `pdk new class test` and the code you can see keyed in.  Finally, `pdk test unit --debug &> pdk-test-unit-debug.log`.  Those files and this README.md are the only files I altered.
 
