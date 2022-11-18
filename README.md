@@ -1,5 +1,11 @@
 # Sample code demonstrating and reproducing https://github.com/puppetlabs/pdk/issues/1190
 
+## Resolution
+
+The `let` statement must be inside a `context` block.  See https://github.com/threepistons/pdk-os-recognition-failure/commit/5b882670de34d168ac023e21e3398afb1abfee96 for how the broken code and working code differ.
+
+## The former lede
+
 This repo was made with `pdk new module test` and setting up support for Debian and RedHat OSes only.  Then `pdk new class test` and the code you can see keyed in.  Finally, `pdk test unit --debug &> pdk-test-unit-debug.log`.  Those files and this README.md are the only files I altered.
 
 The tests as written are meant to fail.  What is interesting is *how* they fail.  You'd expect a Scientific Linux test to fail with "I am a RedHat system", not "I am a Debian system".
